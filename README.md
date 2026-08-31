@@ -18,11 +18,11 @@ This theme supports **[AnuPpuccin Themes Extended](https://github.com/AnubisNekh
 
 ## But why?
 
-Like probably most of you reading this, I love Obsidian and spend a lot of time tinkering with it (arguably to the detriment of actual work). AnuPpuccin with Nord Dark is my favorite theme; however, for big vaults and complex notes, it can become so slow that even typing is delayed.
+Like probably most of you reading this, I love Obsidian and spend a lot of time tinkering with it (arguably to the detriment of actual work). For big vaults and complex notes, it can become so slow that even typing is delayed.
 
-After trying out different themes and snippets, and not satisfied with performance, I started to make my own, copying the best features from AnuPpuccin. What started as a snippet evolved into a complete theme with settings and support for [AnuPpuccin Themes Extended](https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/extended-colorschemes.css) so you can use whatever color scheme you fancy.
+I found this fork and, upon realizing it hasn't been maintained, decided to fork it myself and make it current with the latest Obsidian releases. I've tried to also make it compatible with legacy snippets from the original and the fork, though I can't always guarantee I've done so as that would require extensive testing. 
 
-Bug reports and feature suggestions are welcome, but keep in mind that I probably won't add features that increase complexity and might hinder performance.
+Bug reports, feature suggestions, and PR's are welcome, but keep in mind that I probably won't add features that increase complexity and might hinder performance.
 
 ## Features
 
@@ -65,16 +65,12 @@ The theme includes essential settings for customization:
 
 This theme is licensed under GPL-3.0, as is the original AnuPpuccin theme.
 
-Blue Topaz is licensed under MIT:
-
-Partial style(s) is(are) sourced or adapted from Blue Topaz (https://github.com/PKM-er/Blue-Topaz_Obsidian-css), and I would like to express my appreciation to WhyI (https://github.com/whyt-byte) and pkmer.cn (https://pkmer.cn).
-
 ## Support
 
 If you enjoy this theme, consider supporting the *original author*:
 
 <a href="https://www.buymeacoffee.com/anubisnekhet" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 200px !important;" ></a>
 
-If you also want to *support me*, you can do so here:
+If you also want to support the *author this was forked from*, you can do so here:
 
 <a href="https://www.buymeacoffee.com/lostviking09" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=lostviking09&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
