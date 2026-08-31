@@ -1,5 +1,5 @@
 /*===============================================================
-                    FastPpuccin Colorful Frames Snippet
+                    SpeedPpuccin Colorful Frames Snippet
                             -----------
                     Adopted from AnuPpuccin and Minimal themes
                           by SublimePeace
@@ -16,13 +16,13 @@
 
 /* @settings
 
-name: FastPpuccin Colorful Frame
-id: fastppuccin-colorful-frame-settings
+name: SpeedPpuccin Colorful Frame
+id: speedppuccin-colorful-frame-settings
 settings:
     - 
         id: about-info-text-fpp-colorful-frames
         title: About this snippet 
-        description: "This is a high-performance remake of the Colorful Frames feature from the AnuPpuccin and Minimal themes, designed to be used with the [FastPpuccin](https://github.com/LostViking09/obsidian-fastppuccin) theme. Made by [SublimePeace](https://github.com/SublimePeace)"
+        description: "This is a high-performance remake of the Colorful Frames feature from the AnuPpuccin and Minimal themes, designed to be used with the [SpeedPpuccin](https://github.com/mogpduck/obsidian-fastppuccinv2) theme. Made by [SublimePeace](https://github.com/SublimePeace)"
         type: info-text
         markdown: true
     -
@@ -69,8 +69,8 @@ body.fpp-colorful-frame-icon-toggle-dark.theme-dark {
 }
 
 .fpp-colorful-frame {
-    --titlebar-background: var(--fpp-colorful-frame-color, var(--color-accent));
-    --titlebar-background-focused: var(--fpp-colorful-frame-color, var(--color-accent));
+    --titlebar-background: rgba(var(--fpp-colorful-frame-color, var(--ctp-accent)), var(--fpp-colorful-frame-opacity, 1));
+    --titlebar-background-focused: rgba(var(--fpp-colorful-frame-color, var(--ctp-accent)), var(--fpp-colorful-frame-opacity, 1));
     --titlebar-text-color: var(--background-primary);
     --titlebar-text-color-focused: var(--background-secondary-alt);
 }

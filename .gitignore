@@ -1,5 +1,10 @@
 # vscode
-.vscode 
+.vscode/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
 
 # Intellij
 *.iml
@@ -7,6 +12,7 @@
 
 # npm
 node_modules
+npm-debug.log*
 
 # Exclude sourcemaps
 *.map
@@ -14,4 +20,23 @@ node_modules
 # Exclude macOS Finder (System Explorer) View States
 .DS_Store
 
+# Windows shell artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Secrets and credentials — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+# project-level .npmrc can carry an auth token
+.npmrc
+
+# Local reference copy used when diffing against upstream
 anuppuccin.css

@@ -1,10 +1,11 @@
   /*===============================================================
-                            FastPpuccin
-                            -----------
+                            SpeedPpuccin
+                            ------------
                     High-performance AnuPpuccin clone
-                          by LostViking09
+                             by mogpduck
 
-  This theme is a high-performance clone of the famous AnuPpuccin
+  SpeedPpuccin is a maintained fork of FastPpuccin by LostViking09,
+  which is itself a high-performance clone of the famous AnuPpuccin
   theme by AnubisNekhet. Most features and configurations are
   removed to make it as fast as possible. All color schemes are
   included (both default and extended).
@@ -12,10 +13,11 @@
   The table hover transition effect is lifted from the Blue Topaz
   theme by PKM-er. https://github.com/PKM-er/Blue-Topaz_Obsidian-css
 
-  This theme is licensed under the GPL-3.0 (as is the original).
-  I would recommend supporting the original author (AnubisNekhet).
+  This theme is licensed under the GPL-3.0, as are FastPpuccin and
+  AnuPpuccin before it. I would recommend supporting the original
+  author (AnubisNekhet).
 
-  LostViking09
+  mogpduck
   ---
 
   The following is the licence of the original AnuPpuccin theme:
@@ -31,8 +33,8 @@
   *===============================================================*/
 
 /* @settings
-name: FastPpuccin Theme settings
-id: fastppuccin-theme-settings
+name: SpeedPpuccin Theme settings
+id: speedppuccin-theme-settings
 settings:
   - 
       id: about-info-text
@@ -49,11 +51,11 @@ settings:
   -
       id: rainbow-folders-info-text
       title: Rainbow Folders
-      description: "To use AnuPpuccin's Rainbow Folders, download the snippet from [here](https://github.com/LostViking09/obsidian-fastppuccin/blob/master/snippets/fastppuccin-rainbow-folders.css).\nIt also supports [Custom Rainbow Colors](https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/custom-rainbow-colors.css) from AnuPpuccin."
+      description: "To use AnuPpuccin's Rainbow Folders, download the snippet from [here](https://github.com/mogpduck/obsidian-fastppuccinv2/blob/master/snippets/speedppuccin-rainbow-folders.css).\nIt also supports [Custom Rainbow Colors](https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/custom-rainbow-colors.css) from AnuPpuccin."
       type: info-text
       markdown: true
   -
-      id: fastppuccin-colorsettings-header
+      id: speedppuccin-colorsettings-header
       title: Color settings
       description: Set colorschemes and other color settings.
       type: heading
@@ -119,14 +121,14 @@ settings:
       type: class-toggle
       default: false
   -
-      id: fastppuccin-accent-settings-header
+      id: speedppuccin-accent-settings-header
       title: Accent settings
       description: Set accent colors for the theme.
       type: heading
       level: 1
       collapsed: true
   -
-      id: fastppuccin-accent-toggle
+      id: speedppuccin-accent-toggle
       title: Enable accent handling
       description: Enable theme accent handling (instead of Obsidian's default).
       type: class-toggle
@@ -232,7 +234,7 @@ settings:
           label: Lavender
           value: ctp-accent-lavender
   -
-      id: fastppuccin-decor-header
+      id: speedppuccin-decor-header
       title: Text Decoration
       description: Set colors for bold, italic, and highlight text decorations.
       type: heading
@@ -396,7 +398,7 @@ settings:
           label: Lavender
           value: anp-highlight-lavender
   -
-      id: fastppuccin-features-header
+      id: speedppuccin-features-header
       title: Features
       description: Enable or disable features.
       type: heading
@@ -438,7 +440,6 @@ settings:
       title: Table Hover Transition effect
       type: class-toggle
       default: true
-  -
   */
 
   body, .theme-dark, .theme-light {
@@ -460,7 +461,7 @@ settings:
   }
 
 /* Toggle accent editing */
-.fastppuccin-accent-toggle {
+.speedppuccin-accent-toggle {
   --color-accent: rgb(var(--ctp-accent));
   --color-accent-1: rgb(var(--ctp-accent));
   --color-accent-2: rgba(var(--ctp-accent), 0.9);
@@ -500,6 +501,8 @@ settings:
   .theme-light {
     --mono-rgb-0: var(--ctp-crust);
     --mono-rgb-100: var(--ctp-text);
+    --mono-0: rgb(var(--ctp-crust));
+    --mono-100: rgb(var(--ctp-text));
     --color-red-rgb: var(--ctp-red);
     --color-red: rgb(var(--ctp-red));
     --color-green-rgb: var(--ctp-green);
@@ -529,11 +532,11 @@ settings:
     --color-base-100: rgb(var(--ctp-text));
     --text-highlight-bg: rgba(var(--ctp-yellow), 0.2);
     --text-highlight-bg-active: rgba(var(--ctp-yellow), 0.4);
-    --input-shadow: inset 0 0.5px 0.5px 0.5px rgba(var(255, 255, 255), 0.09),
+    --input-shadow: inset 0 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.09),
       0 2px 4px 0 rgba(var(--ctp-crust), 0.15),
       0 1px 1.5px 0 rgba(var(--ctp-crust), 0.1),
       0 1px 2px 0 rgba(var(--ctp-crust), 0.2), 0 0 0 0 transparent;
-    --input-shadow-hover: inset 0 0.5px 1px 0.5px rgba(var(255, 255, 255), 0.16),
+    --input-shadow-hover: inset 0 0.5px 1px 0.5px rgba(255, 255, 255, 0.16),
       0 2px 3px 0 rgba(var(--ctp-crust), 0.3),
       0 1px 1.5px 0 rgba(var(--ctp-crust), 0.2),
       0 1px 2px 0 rgba(var(--ctp-crust), 0.4), 0 0 0 0 transparent;
@@ -608,13 +611,13 @@ settings:
   .theme-light.theme-light {
     --canvas-color: var(--ctp-overlay0);
   }
-  .style-settings-heading:is([data-id=fastppuccin-theme-settings],
-  [data-id=anuppuccin-theme-settings-extended],) .setting-item-name {
+  .style-settings-heading:is([data-id=speedppuccin-theme-settings],
+  [data-id=anuppuccin-theme-settings-extended]) .setting-item-name {
     color: var(--color-accent);
   }
 
-  .style-settings-heading:is([data-id=fastppuccin-rainbow-folders-settings],
-  [data-id=anp-custom-rainbow-colors],[data-id=fastppuccin-colorful-frame-settings]) .setting-item-name {
+  .style-settings-heading:is([data-id=speedppuccin-rainbow-folders-settings],
+  [data-id=anp-custom-rainbow-colors],[data-id=speedppuccin-colorful-frame-settings]) .setting-item-name {
     color: rgb(var(--ctp-mauve));
   }
 
@@ -1209,49 +1212,13 @@ settings:
     color: var(--text-normal);
   }
 
-  /* Callouts */
-
-  .callout,
-  .callout[data-callout="todo"],
-  .callout[data-callout="todo"] {
-    --callout-color: var(--ctp-blue);
-  }
-  .callout[data-callout="abstract"],
-  .callout[data-callout="summary"],
-  .callout[data-callout="tldr"],
-  .callout[data-callout="important"],
-  .callout[data-callout="tip"],
-  .callout[data-callout="hint"] {
-    --callout-color: var(--ctp-sky);
-  }
-  .callout[data-callout="success"],
-  .callout[data-callout="check"],
-  .callout[data-callout="done"] {
-    --callout-color: var(--ctp-green);
-  }
-  .callout[data-callout="question"],
-  .callout[data-callout="help"],
-  .callout[data-callout="faq"],
-  .callout[data-callout="warning"],
-  .callout[data-callout="caution"],
-  .callout[data-callout="attention"] {
-    --callout-color: var(--ctp-peach);
-  }
-  .callout[data-callout="failure"],
-  .callout[data-callout="fail"],
-  .callout[data-callout="missing"],
-  .callout[data-callout="danger"],
-  .callout[data-callout="error"],
-  .callout[data-callout="bug"] {
-    --callout-color: var(--ctp-red);
-  }
-  .callout[data-callout="example"] {
-    --callout-color: var(--ctp-lavender);
-  }
-  .callout[data-callout="quote"],
-  .callout[data-callout="cite"] {
-    --callout-color: 158, 158, 158;
-  }
+  /* Callouts
+     Obsidian derives --callout-color from --callout-<type>, which chain to
+     --color-blue/cyan/green/orange/red/purple. This theme already remaps those
+     to the Catppuccin palette above, so every callout type resolves correctly
+     without an explicit override here. Setting --callout-color directly would
+     break on Obsidian 1.13+, which expects a colour value rather than the bare
+     RGB triplet the --ctp-* variables hold. */
 
   /* Inline title styling */
 

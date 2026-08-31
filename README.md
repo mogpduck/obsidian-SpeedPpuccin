@@ -1,12 +1,14 @@
-# FastPpuccin
+# SpeedPpuccin
 
 A high-performance clone of the [AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) theme by AnubisNekhet, optimized for speed.
+
+SpeedPpuccin is a maintained fork of [FastPpuccin](https://github.com/LostViking09/obsidian-fastppuccin) by LostViking09, updated for current Obsidian releases.
 
 <img src="theme_image_big.png">
 
 ## About
 
-FastPpuccin is a streamlined version of the popular AnuPpuccin theme, designed with performance in mind. It maintains the beautiful aesthetics of the original while removing most features and configurations to achieve maximum speed.
+SpeedPpuccin is a streamlined version of the popular AnuPpuccin theme, designed with performance in mind. It maintains the beautiful aesthetics of the original while removing most features and configurations to achieve maximum speed.
 
 In my testing, performance is comparable to using the default theme.
 
@@ -26,7 +28,7 @@ Bug reports and feature suggestions are welcome, but keep in mind that I probabl
 
 - High-Performance, with the same great look!
 - **Support for [AnuPpuccin Themes Extended](https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/extended-colorschemes.css)** ([mirror](snippets/extended-colorschemes.css))
-- AnuPpuccin's **Rainbow folders** avaiable as a separate snippet: [Rainbow Folers](snippets/fastppuccin-rainbow-folders.css)
+- AnuPpuccin's **Rainbow folders** available as a separate snippet: [Rainbow Folders](snippets/speedppuccin-rainbow-folders.css)
   - It also supports [Custom Rainbow Colors](https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/custom-rainbow-colors.css) from AnuPpuccin. ([mirror](snippets/custom-rainbow-colors.css))
 - Core features preserved:
   - Force theme accents
@@ -55,7 +57,8 @@ The theme includes essential settings for customization:
 
 ## Credits
 
-- Original [AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) theme by AnubisNekhet. Almost all code is lifted from AnuPpuccin, with some minor bug fixes and some hard-coded variables that are required for FastPpuccin.
+- Forked from [FastPpuccin](https://github.com/LostViking09/obsidian-fastppuccin) by LostViking09.
+- Original [AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) theme by AnubisNekhet. Almost all code is lifted from AnuPpuccin, with some minor bug fixes and some hard-coded variables that are required for SpeedPpuccin.
 - Table hover transition from [Blue Topaz](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) theme by PKM-er
 
 ## License
