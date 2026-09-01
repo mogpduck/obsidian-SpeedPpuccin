@@ -61,6 +61,10 @@ The theme includes essential settings for customization:
 - Original [AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) theme by AnubisNekhet. Almost all code is lifted from AnuPpuccin, with some minor bug fixes and some hard-coded variables that are required for SpeedPpuccin.
 - Table hover transition from [Blue Topaz](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) theme by PKM-er
 
+## Responsible use of AI
+
+- Claude Opus was used in helping make sweeping changes for the initial fork, but only to the extent it was instructed to by me. Every change was manually reviewed, and I try to stay on top of any changes that might be needed as Obsidian updates its documentation. Future updates will include some combination of AI-assisted and manual programming. 
+
 ## License
 
 This theme is licensed under GPL-3.0, as is the original AnuPpuccin theme.

@@ -675,6 +675,11 @@ settings:
   }
 
 /*------------------ Custom Accents -------------------*/
+/* !important is required. extended-colorschemes.css sets --ctp-accent at
+   .theme-dark.anp-theme-ext-dark.ctp-* (0,3,0) from a snippet loading after
+   the theme. Without !important, forced accents silently break for those
+   users. These are custom-property definitions on body, not property
+   declarations, so they don't block user snippets. */
 .ctp-accent-rosewater {
   --ctp-accent: var(--ctp-rosewater) !important;
 }
@@ -1258,6 +1263,9 @@ settings:
     --checkbox-color: rgb(var(--ctp-yellow));
     --checkbox-color-hover: rgb(var(--ctp-yellow));
   }
+  /* -webkit- prefixes are intentional. Obsidian core uses the prefixed mask
+   properties, and users can run app 1.13 on an old installer with
+   pre-Chromium-120 Electron. Do not remove this. */
   .anp-custom-checkboxes [data-task="!"] > input[type="checkbox"]:checked:after,
   .anp-custom-checkboxes
     [data-task="!"]
@@ -1615,7 +1623,7 @@ settings:
   .anp-custom-checkboxes [data-task="/"][type="checkbox"]:checked {
     --checkbox-color: rgba(var(--ctp-subtext0), 0.3);
     --checkbox-color-hover: rgba(var(--ctp-subtext0), 0.3);
-    border-color: rgb(var(--ctp-subtext0)) !important;
+    border-color: rgb(var(--ctp-subtext0));
   }
   .anp-custom-checkboxes [data-task="/"] > input[type="checkbox"]:checked:after,
   .anp-custom-checkboxes
@@ -2098,9 +2106,9 @@ settings:
     .workspace-tab-header {
     background: var(--tab-background);
     border-radius: var(--anp-safari-tab-radius, 6px);
-    box-shadow: none !important;
+    box-shadow: none;
     height: var(--tab-height);
-    padding: 0 !important;
+    padding: 0;
     transition: 400ms, background-color 150ms ease-in-out;
   }
 
@@ -2228,7 +2236,7 @@ settings:
     .workspace-tabs:not(.mod-stacked).mod-active
     .workspace-tab-header.is-active
     .workspace-tab-header-inner-icon {
-    color: var(--color-accent) !important;
+    tab-text-color-focused-active: var(--color-accent);
   }
 
   .anp-alternate-tab-toggle
