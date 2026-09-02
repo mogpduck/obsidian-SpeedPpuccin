@@ -596,7 +596,7 @@ settings:
     --background-modifier-cover: rgba(var(--ctp-mantle), 0.4);
   }
   .theme-dark.theme-dark {
-    --canvas-color: var(--ctp-overlay0);
+    --canvas-color: rgb(var(--ctp-overlay0));
   }
 
   .theme-light {
@@ -609,7 +609,7 @@ settings:
     --background-modifier-cover: #00000022;
   }
   .theme-light.theme-light {
-    --canvas-color: var(--ctp-overlay0);
+    --canvas-color: rgb(var(--ctp-overlay0));
   }
   .style-settings-heading:is([data-id=speedppuccin-theme-settings],
   [data-id=anuppuccin-theme-settings-extended]) .setting-item-name {
@@ -636,7 +636,7 @@ settings:
     );
     --anp-table-width-pct: 100%;
     --code-background: var(--anp-code-bg-color, var(--background-secondary-alt));
-    --canvas-color: var(--ctp-overlay2);
+    --canvas-color: rgb(var(--ctp-overlay2));
     --card-background-color: rgb(var(--ctp-crust));
     --card-foreground-color: rgb(var(--ctp-base));
     --tab-inactive-color: rgb(var(--ctp-mantle));
