@@ -613,6 +613,7 @@ settings:
     --background-modifier-border-focus: rgb(var(--ctp-overlay0));
     --anp-speech-bubble-opacity: var(--anp-sp-op-light, 0.5);
     --background-modifier-cover: #00000022;
+    --background-modifier-message: rgba(var(--ctp-text), 0.9);
   }
   .theme-light.theme-light {
     --canvas-color: rgb(var(--ctp-overlay0));
@@ -1034,6 +1035,7 @@ settings:
     --ctp-mantle: var(--ctp-ext-mantle, 230, 219, 209);
     --ctp-crust: var(--ctp-ext-crust, 221, 208, 198);
   }
+
 .theme-light.ctp-gruvbox-day,
   .ctp-gruvbox-day .themed-color-wrapper > .theme-light {
     --ctp-rosewater: var(--ctp-ext-rosewater, 202, 151, 114);
@@ -1183,6 +1185,7 @@ settings:
     --ctp-mantle: var(--ctp-ext-mantle, 26, 24, 38);
     --ctp-crust: var(--ctp-ext-crust, 22, 19, 32);
   }
+
 .theme-dark.ctp-gruvbox,
   .ctp-gruvbox .themed-color-wrapper > .theme-dark {
     --ctp-rosewater: var(--ctp-ext-rosewater, 249, 245, 215);
