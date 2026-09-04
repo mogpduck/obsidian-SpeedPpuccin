@@ -43,7 +43,7 @@ Bug reports, feature suggestions, and PR's are welcome, but keep in mind that I 
 
 The theme includes essential settings for customization:
 
-- Light/Dark theme flavor selection
+- Light/Dark theme flavor selection (added Gruvbox as a style settings option in 1.1.0, including its own accent as Gruvbox green, which is visible when "Enable accent handling" is on)
 - File name title color options (Normal, Muted, Accent, H1)
 - Toggle options for:
   - Force theme accents
