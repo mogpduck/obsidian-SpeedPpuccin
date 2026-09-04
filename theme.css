@@ -70,6 +70,9 @@ settings:
       default: ctp-latte
       options:
       -
+          label: Gruvbox
+          value: ctp-gruvbox-day
+      -
           label: Latte
           value: ctp-latte
       -
@@ -86,6 +89,9 @@ settings:
       -
           label: Frappe
           value: ctp-frappe
+      -
+          label: Gruvbox
+          value: ctp-gruvbox
       -
           label: Macchiato
           value: ctp-macchiato
@@ -1028,7 +1034,36 @@ settings:
     --ctp-mantle: var(--ctp-ext-mantle, 230, 219, 209);
     --ctp-crust: var(--ctp-ext-crust, 221, 208, 198);
   }
-
+.theme-light.ctp-gruvbox-day,
+  .ctp-gruvbox-day .themed-color-wrapper > .theme-light {
+    --ctp-rosewater: var(--ctp-ext-rosewater, 202, 151, 114);
+    --ctp-flamingo: var(--ctp-ext-flamingo, 197, 119, 89);
+    --ctp-pink: var(--ctp-ext-pink, 177, 98, 134);
+    --ctp-mauve: var(--ctp-ext-mauve, 143, 63, 113);
+    --ctp-red: var(--ctp-ext-red, 157, 0, 6);
+    --ctp-maroon: var(--ctp-ext-maroon, 204, 36, 29);
+    --ctp-peach: var(--ctp-ext-peach, 175, 58, 3);
+    --ctp-yellow: var(--ctp-ext-yellow, 181, 118, 20);
+    --ctp-green: var(--ctp-ext-green, 121, 116, 14);
+    --ctp-teal: var(--ctp-ext-teal, 66, 123, 88);
+    --ctp-sky: var(--ctp-ext-sky, 91, 174, 163);
+    --ctp-sapphire: var(--ctp-ext-sapphire, 69, 133, 136);
+    --ctp-blue: var(--ctp-ext-blue, 7, 102, 120);
+    --ctp-lavender: var(--ctp-ext-lavender, 155, 83, 162);
+    --ctp-text: var(--ctp-ext-text, 40, 40, 40);
+    --ctp-subtext1: var(--ctp-ext-subtext1, 60, 56, 54);
+    --ctp-subtext0: var(--ctp-ext-subtext0, 80, 73, 69);
+    --ctp-overlay2: var(--ctp-ext-overlay2, 102, 92, 84);
+    --ctp-overlay1: var(--ctp-ext-overlay1, 124, 111, 100);
+    --ctp-overlay0: var(--ctp-ext-overlay0, 146, 131, 116);
+    --ctp-surface2: var(--ctp-ext-surface2, 168, 153, 132);
+    --ctp-surface1: var(--ctp-ext-surface1, 189, 174, 147);
+    --ctp-surface0: var(--ctp-ext-surface0, 213, 196, 161);
+    --ctp-base: var(--ctp-ext-base, 251, 241, 199);
+    --ctp-mantle: var(--ctp-ext-mantle, 242, 229, 188);
+    --ctp-crust: var(--ctp-ext-crust, 235, 219, 178);
+    --ctp-accent: var(--ctp-green);
+  }
   .theme-dark.ctp-frappe,
   .ctp-frappe .themed-color-wrapper > .theme-dark {
     --ctp-rosewater: var(--ctp-ext-rosewater, 242, 213, 207);
@@ -1148,7 +1183,36 @@ settings:
     --ctp-mantle: var(--ctp-ext-mantle, 26, 24, 38);
     --ctp-crust: var(--ctp-ext-crust, 22, 19, 32);
   }
-
+.theme-dark.ctp-gruvbox,
+  .ctp-gruvbox .themed-color-wrapper > .theme-dark {
+    --ctp-rosewater: var(--ctp-ext-rosewater, 249, 245, 215);
+    --ctp-flamingo: var(--ctp-ext-flamingo, 242, 229, 188);
+    --ctp-pink: var(--ctp-ext-pink, 220, 158, 186);
+    --ctp-mauve: var(--ctp-ext-mauve, 211, 134, 155);
+    --ctp-red: var(--ctp-ext-red, 251, 73, 52);
+    --ctp-maroon: var(--ctp-ext-maroon, 241, 137, 116);
+    --ctp-peach: var(--ctp-ext-peach, 254, 128, 25);
+    --ctp-yellow: var(--ctp-ext-yellow, 250, 189, 47);
+    --ctp-green: var(--ctp-ext-green, 184, 187, 38);
+    --ctp-teal: var(--ctp-ext-teal, 142, 192, 124);
+    --ctp-sky: var(--ctp-ext-sky, 170, 207, 204);
+    --ctp-sapphire: var(--ctp-ext-sapphire, 113, 180, 183);
+    --ctp-blue: var(--ctp-ext-blue, 131, 165, 152);
+    --ctp-lavender: var(--ctp-ext-lavender, 203, 161, 206);
+    --ctp-text: var(--ctp-ext-text, 235, 219, 178);
+    --ctp-subtext1: var(--ctp-ext-subtext1, 213, 196, 161);
+    --ctp-subtext0: var(--ctp-ext-subtext0, 189, 174, 147);
+    --ctp-overlay2: var(--ctp-ext-overlay2, 168, 153, 132);
+    --ctp-overlay1: var(--ctp-ext-overlay1, 146, 131, 116);
+    --ctp-overlay0: var(--ctp-ext-overlay0, 124, 111, 100);
+    --ctp-surface2: var(--ctp-ext-surface2, 102, 92, 84);
+    --ctp-surface1: var(--ctp-ext-surface1, 80, 73, 69);
+    --ctp-surface0: var(--ctp-ext-surface0, 60, 56, 54);
+    --ctp-base: var(--ctp-ext-base, 40, 40, 40);
+    --ctp-mantle: var(--ctp-ext-mantle, 29, 32, 33);
+    --ctp-crust: var(--ctp-ext-crust, 21, 23, 24);
+    --ctp-accent: var(--ctp-green);
+  }
   .theme-dark {
     --ctp-rosewater: var(--ctp-ext-rosewater, 245, 224, 220);
     --ctp-flamingo: var(--ctp-ext-flamingo, 242, 205, 205);
@@ -2236,7 +2300,7 @@ settings:
     .workspace-tabs:not(.mod-stacked).mod-active
     .workspace-tab-header.is-active
     .workspace-tab-header-inner-icon {
-    tab-text-color-focused-active: var(--color-accent);
+    color: var(--color-accent);
   }
 
   .anp-alternate-tab-toggle
