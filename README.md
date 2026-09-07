@@ -10,8 +10,6 @@ SpeedPpuccin is a maintained fork of [FastPpuccin](https://github.com/LostViking
 
 SpeedPpuccin is a streamlined version of the popular AnuPpuccin theme, designed with performance in mind. It maintains the beautiful aesthetics of the original while removing most features and configurations to achieve maximum speed.
 
-In my testing, performance is comparable to using the default theme.
-
 This theme supports **[AnuPpuccin Themes Extended](https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/extended-colorschemes.css)** ([mirror](snippets/extended-colorschemes.css)).
 
 <img src="dev/extended_colorschemes.png">
@@ -43,7 +41,9 @@ Bug reports, feature suggestions, and PR's are welcome, but keep in mind that I 
 
 The theme includes essential settings for customization:
 
-- Light/Dark theme flavor selection (added Gruvbox as a style settings option in 1.1.0, including its own accent as Gruvbox green, which is visible when "Enable accent handling" is on)
+- Light/Dark theme flavor selection
+	- Light mode currently supports the following flavors via the style settings plugin: Gruvbox, Latte, and Rose Pine
+	- Dark mode currently supports the following flavors via the style settings plugin: Frappe, Gruvbox, Macchiato, Mocha, and Mocha Old
 - File name title color options (Normal, Muted, Accent, H1)
 - Toggle options for:
   - Force theme accents
@@ -58,7 +58,7 @@ The theme includes essential settings for customization:
 ## Credits
 
 - Forked from [FastPpuccin](https://github.com/LostViking09/obsidian-fastppuccin) by LostViking09.
-- Original [AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) theme by AnubisNekhet. Almost all code is lifted from AnuPpuccin, with some minor bug fixes and some hard-coded variables that are required for SpeedPpuccin.
+- Original [AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) theme by AnubisNekhet. Almost all code is lifted from AnuPpuccin, with some minor bug fixes and some variables that are required for SpeedPpuccin.
 - Table hover transition from [Blue Topaz](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) theme by PKM-er
 
 ## Responsible use of AI

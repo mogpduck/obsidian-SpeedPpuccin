@@ -36,7 +36,7 @@
 name: SpeedPpuccin Theme settings
 id: speedppuccin-theme-settings
 settings:
-  - 
+  -
       id: about-info-text
       title: About this theme
       description: "This is a high-performance clone of the famous [AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) theme (GPL-3.0)"
@@ -410,7 +410,7 @@ settings:
       type: heading
       level: 1
       collapsed: true
-  
+
   -
       id: anp-custom-checkboxes
       title: Custom Checkboxes
@@ -613,7 +613,6 @@ settings:
     --background-modifier-border-focus: rgb(var(--ctp-overlay0));
     --anp-speech-bubble-opacity: var(--anp-sp-op-light, 0.5);
     --background-modifier-cover: #00000022;
-    --background-modifier-message: rgba(var(--ctp-text), 0.9);
   }
   .theme-light.theme-light {
     --canvas-color: rgb(var(--ctp-overlay0));
@@ -2085,7 +2084,7 @@ settings:
 
   /* body.toggle-table-transition :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tbody td:hover{
     background: var(--table-hover-color);
-    transform: scale(1.02); 
+    transform: scale(1.02);
     transition: 0.1s cubic-bezier(0.22, 0.66, 0.46, 0.66);
   } */
 
@@ -2198,13 +2197,6 @@ settings:
     .workspace-tabs:not(.mod-stacked)
     .workspace-tab-header:first-child {
     margin-left: 0;
-  }
-
-  .anp-alternate-tab-toggle
-    .mod-root:not(.mod-left-split):not(.mod-right-split)
-    .workspace-tabs:not(.mod-stacked)
-    .workspace-tab-header-inner {
-    padding: 7px 8px;
   }
 
   .anp-alternate-tab-toggle
