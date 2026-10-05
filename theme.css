@@ -613,6 +613,9 @@ settings:
     --background-modifier-border-focus: rgb(var(--ctp-overlay0));
     --anp-speech-bubble-opacity: var(--anp-sp-op-light, 0.5);
     --background-modifier-cover: #00000022;
+    /* Tooltips and notices draw #FAFAFA text on this background, so it must
+       stay dark in light mode too. */
+    --background-modifier-message: rgba(var(--ctp-text), 0.9);
   }
   .theme-light.theme-light {
     --canvas-color: rgb(var(--ctp-overlay0));
@@ -1276,11 +1279,6 @@ settings:
   /* Slider checkboxes for Style Settings */
   .checkbox-container.is-enabled:after {
     background-color: var(--background-primary);
-  }
-
-  /* Light theme message text color fix */
-  .notice {
-    color: var(--text-normal);
   }
 
   /* Callouts
